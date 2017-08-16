@@ -1,0 +1,1 @@
+¿Será lo mismo debitar y luego depositar que depositar y luego debitar? :thought_balloon:
