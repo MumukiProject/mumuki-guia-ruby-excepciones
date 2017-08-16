@@ -1,4 +1,4 @@
-Ahora te toca a vos: `carlos` es un ornitólogo que investiga el comportamiento de `Pepita`, y como parte de su estudio la hace:
+Ahora te toca a vos: `Carlos` es un ornitólogo que investiga el comportamiento de `Pepita`, y como parte de su estudio la hace:
 
 1. `comerAlpiste! 10`
 2. `volar_en_circulos!`  dos veces 
