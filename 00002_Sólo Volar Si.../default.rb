@@ -1,11 +1,11 @@
-module pepita {
+module Pepita
   @energia = 50
   
-  def volar_en_circulos!
+  def self.volar_en_circulos!
     @energia -= 20
   end
   
-  def energia
+  def self.energia
     @energia
   end
 end

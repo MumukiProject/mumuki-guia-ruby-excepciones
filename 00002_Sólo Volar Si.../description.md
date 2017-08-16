@@ -12,9 +12,10 @@ Si bien es fácil de entender, ésto está claramente mal: la energía de `pepit
 
 > Además de envíos de mensajes, en objetos contamos con una estructura de control bastante conocida: la alternativa condicional o `if`: 
 > 
-> ```wollok
-> if (dia.esSoleado())
->   picnic.preparar()
+> ```ruby
+> if dia.es_soleado?
+>   picnic.preparar!
+> end
 > ```
 > 
-> Sabiendo esto, modificá el método `volarEnCirculos` para que sólo vuele (pierda energía) si puede. 
+> Sabiendo esto, modificá el método `volar_en_circulos!` para que sólo vuele (pierda energía) si puede. 
