@@ -1,15 +1,11 @@
-module Transferencia
-   @monto = 40
-   def realizar!
-      CuentaOrigen.debitar! monto
-      CuentaDestino.depositar! monto 
-   end
-end
-
 module CuentaOrigen
   @saldo = 20
   def debitar!(monto)
-    if monto <= saldo
+    if monto > saldo
+      raise "No se puede debitar, porque el monto $#{monto} es mayor al saldo $#{saldo}"
+    end
+
+    if (monto <= saldo)
       saldo -= monto
     end
   end
