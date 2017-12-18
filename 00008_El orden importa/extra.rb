@@ -17,7 +17,7 @@ module BarcoPirata
   end
 end
 
-module ciudad
+module Ciudad
   def puede_hacerle_frente_a(barco)
     Eventos.ocurrir!("puedeHacerFrente")
     false
