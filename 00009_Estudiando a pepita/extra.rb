@@ -1,11 +1,11 @@
 module Pepita
   @energia = 50
   
-  def comer_alpiste!(cantidad)
+  def self.comer_alpiste!(cantidad)
     @energia += cantidad * 2
   end
   
-  def volar_en_circulos!
+  def self.volar_en_circulos!
     if @energia < 20
       raise "pepita no tiene suficiente energía para volar"     
     end
