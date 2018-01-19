@@ -1,15 +1,7 @@
-describe "Ornitologo" do 
-  it "existe Carlos"  do
-    Carlos
-  end
+carlos = Ornitologo.new
 
-  it "Carlos estudia a Pepita" do
-   Carlos.estudiar_pepita! 
+it "Si pepita tiene poca energía, estudiar a pepita falla" do
+   pepita.volar_en_circulos!
+   pepita.volar_en_circulos!
+   expect { carlos.estudiar_pepita! }.to raise_error
   end
-
-  it "si Pepita tiene poca energía, estudiar a Pepita falla" do
-   Pepita.volar_en_circulos!
-   Pepita.volar_en_circulos!
-   expect { Carlos.estudiar_pepita! }.to raise_error
-  end
-end
