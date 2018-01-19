@@ -4,11 +4,9 @@ describe do
     expect(Pepita.energia).to eq 30
   end
   
-  
   it "si Pepita vuela dos veces, consume 40" do
     Pepita.volar_en_circulos!
     Pepita.volar_en_circulos!
-    
     expect(Pepita.energia).to eq 10
   end
   
