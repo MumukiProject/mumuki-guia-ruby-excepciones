@@ -31,9 +31,7 @@ class CuentaDestino
   end
   
   def depositar!(monto)
-    if monto <= @saldo
       @saldo += monto
-    end
   end
   
   def saldo
