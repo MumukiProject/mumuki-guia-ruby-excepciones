@@ -1,6 +1,9 @@
+barco_pirata = Barco.new
+saqueo = Saqueo.new(barco_pirata)
+
 describe "Saqueos" do 
-  it "el saqueo se realiza en el orden correcto"
+  it "El saqueo se realiza en el orden correcto"
     saqueo.realizar_contra!(ciudad)
-    expect(eventos.es).to eq ["puedeHacerFrente", "preparar", "desembarcar"]
+    expect(Eventos.es).to eq ["puede_hacer_frente", "preparar", "desembarcar"]
   end
 end

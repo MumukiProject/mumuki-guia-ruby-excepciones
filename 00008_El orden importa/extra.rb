@@ -8,18 +8,19 @@ module Eventos
   end
 end
 
-module BarcoPirata
-  def preparar_triuplacion!
+class Barco
+  def preparar_tripulacion!
     Eventos.ocurrir!("preparar")
   end
-    def desembarcar_barco!(ciudad)
+  def desembarcar!(ciudad)
     Eventos.ocurrir!("desembarcar")
   end
 end
 
-module Ciudad
-  def puede_hacerle_frente_a(barco)
-    Eventos.ocurrir!("puedeHacerFrente")
+class Ciudad
+  def puede_hacerle_frente_a?(barco)
+    Eventos.ocurrir!("puede_hacer_frente")
     false
   end
 end
+
