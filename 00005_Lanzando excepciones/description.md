@@ -1,4 +1,4 @@
-¿Interesante, no? No solamente tuvimos un mensaje de error claro que nos permite entender qué sucedió, sino que además evitó que se deposite dinero en la cuenta de destino. :smile:. ¿Cómo fue esto posible?
+¿Interesante, no? No solamente tuvimos un mensaje de error claro que nos permite entender qué sucedió, sino que además evitó que se deposite dinero en la cuenta de destino :smile:. ¿Cómo fue esto posible?
 
 La primera versión del método `debitar!` en `CuentaOrigen` se veía aproximadamente así: 
 
@@ -28,7 +28,7 @@ Mediante la sentencia `raise mensaje` lo que hicimos fue _lanzar una excepción_
 
 > ¡Más despacio cerebrito! :hand: Probá enviar `mensaje_raro` a `ObjetoRaro` (que ya cargamos por vos) en la consola...
 > 
-> ```
+> ```ruby
 > module ObjetoRaro
 >    def mensaje_raro
 >       raise "foo"
