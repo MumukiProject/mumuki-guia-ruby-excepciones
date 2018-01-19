@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: Ornitologo
+  inspection: DeclaresMethod:estudiar_pepita!
