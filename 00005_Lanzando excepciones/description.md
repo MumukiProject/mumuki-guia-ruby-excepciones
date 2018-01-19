@@ -30,7 +30,7 @@ Mediante la sentencia `raise mensaje` lo que hicimos fue _lanzar una excepción_
 > 
 > ```ruby
 > module ObjetoRaro
->    def mensaje_raro
+>    def self.mensaje_raro
 >       raise "foo"
 >       4
 >    end 
