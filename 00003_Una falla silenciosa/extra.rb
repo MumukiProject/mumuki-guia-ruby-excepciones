@@ -3,9 +3,9 @@ class Transferencia
     @monto = 40
   end
   
-  def realizar!
-    cuenta_origen.debitar! monto
-    cuenta_destino.depositar! monto
+  def realizar!(origen, destino)
+    origen.debitar! monto
+    destino.depositar! monto
   end
 end
 
