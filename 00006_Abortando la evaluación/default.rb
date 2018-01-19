@@ -1,14 +1,14 @@
-module Pepita
-  @energia = 50
-  
-  def self.volar_en_circulos!
-    # modificá este método...
-    if @energia >= 20
-       @energia -= 20
-    end
+class Golondrina
+  def initialize
+    @energia = 50
   end
   
-  def self.energia
+  def energia
     @energia
+  end
+  
+  def volar_en_circulos!
+    #Modificá este método...
+    @energia -= 20
   end
 end
