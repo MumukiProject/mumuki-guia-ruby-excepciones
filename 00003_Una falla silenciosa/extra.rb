@@ -27,7 +27,7 @@ end
 
 class CuentaDestino
   def initialize
-    @saldo = 20
+    @saldo = 100
   end
   
   def depositar!(monto)
