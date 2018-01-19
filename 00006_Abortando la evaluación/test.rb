@@ -7,7 +7,6 @@ end
 
 it "Si una golondrina vuela dos veces, consume 40" do
   pepita.volar_en_circulos!
-  pepita.volar_en_circulos!
   expect(pepita.energia).to eq 10
 end
 
