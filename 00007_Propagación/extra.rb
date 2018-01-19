@@ -1,5 +1,5 @@
 class Cuenta
-  def initialize(saldo)
+  def initialize(saldo_inicial)
     @saldo = saldo_inicial
   end
   
