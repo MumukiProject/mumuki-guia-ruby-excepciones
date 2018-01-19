@@ -1,9 +1,10 @@
-module Transferencia
-   @monto = 40
-   def realizar!
-      CuentaOrigen.debitar! monto
-      CuentaDestino.depositar! monto
-   end
-   
-   //completar acá...
+class Transferencia
+  def initialize(monto_a_transferir)
+    @monto = monto_a_transferir
+  end
+  
+  def realizar!(origen, destino)
+    origen.debitar! @monto
+    destino.depositar! @monto
+  end
 end
