@@ -4,17 +4,17 @@ Esto no parece tan terrible cuando del vuelo de las golondrinas se trata, pero Â
 
 ```ruby
 class Transferencia
-  def initialize
-    @monto = 40
+  def initialize(monto_a_transferir)
+    @monto = monto_a_transferir
   end
   
   def realizar!(origen, destino)
-    origen.debitar! monto
-    destino.depositar! monto
+    origen.debitar! @monto
+    destino.depositar! @monto
   end
 end
 
-transferencia = Transferencia.new
+transferencia = Transferencia.new(40)
 cuenta_origen = CuentaOrigen.new
 cuenta_destino = CuentaDestino.new
 
