@@ -1,13 +1,16 @@
-Recordemos a nuestra vieja amiga `pepita` y su método `volar_en_circulos!`:
+Recordemos a nuestra vieja amiga `pepita` y su método `volar_en_circulos!`. Ahora _evolucionó_ y es un objeto de la clase `Golondrina`:
 
 ```ruby
-module Pepita
+class Golondrina
   @energia = 50
   
   def volar_en_circulos!
     @energia -= 20
   end
 end
+
+pepita = Golondrina.new
+
 ```
 
 ¿Qué le pasará cuando vuele _demasiado_? 
