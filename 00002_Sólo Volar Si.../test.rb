@@ -1,3 +1,5 @@
+pepita = Golondrina.new
+
 describe do 
   it "si Pepita vuela una vez, consume 20" do
     pepita.volar_en_circulos!
