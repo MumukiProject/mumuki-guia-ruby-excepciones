@@ -18,4 +18,5 @@ class Golondrina
     
     @energia -= 20
   end
-end
+
+pepita = Golondrina.new
