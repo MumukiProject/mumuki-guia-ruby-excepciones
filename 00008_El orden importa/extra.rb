@@ -1,9 +1,9 @@
 module Eventos
   @es = []
-  def ocurrir!(evento)
+  def self.ocurrir!(evento)
     @es << evento
   end
-  def es 
+  def self.es 
     @es
   end
 end
