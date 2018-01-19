@@ -1,7 +1,7 @@
-Si no estás seguro de qué probar, te hacemos una segurencia: 
+Si no estás seguro de qué probar, te hacemos una segurencia:
 
-1. `ム CuentaOrigen.saldo`
-2. `ム CuentaDestino.saldo`
-3. `ム Transferencia.realizar!`
-4. `ム CuentaOrigen.saldo`
-5. `ム CuentaDestino.saldo`
+1. `ム cuenta_origen.saldo`
+2. `ム cuenta_destino.saldo`
+3. `ム transferencia.realizar!`
+4. `ム cuenta_origen.saldo`
+5. `ム cuenta_destino.saldo`

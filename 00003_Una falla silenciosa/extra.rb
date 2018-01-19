@@ -1,29 +1,46 @@
-module Transferencia
-   @monto = 40
-   def realizar!
-      CuentaOrigen.debitar! monto
-      CuentaDestino.depositar! monto 
-   end
+class Transferencia
+  def initialize
+    @monto = 40
+  end
+  
+  def realizar!
+    cuenta_origen.debitar! monto
+    cuenta_destino.depositar! monto
+  end
 end
 
-module CuentaOrigen
-  @saldo = 20
+class CuentaOrigen
+  def initialize
+    @saldo = 20
+  end
+  
   def debitar!(monto)
-    if monto <= saldo
-      saldo -= monto
+    if monto <= @saldo
+      @saldo -= monto
     end
   end
-  def saldo
-    return saldo
-  end
-end
-
-module CuentaDestino
-  @saldo = 100
-  def depositar!(monto)
-    @saldo += monto    
-  end
+  
   def saldo
     @saldo
   end
 end
+
+class CuentaDestino
+  def initialize
+    @saldo = 20
+  end
+  
+  def depositar!(monto)
+    if monto <= @saldo
+      @saldo += monto
+    end
+  end
+  
+  def saldo
+    @saldo
+  end
+end
+
+transferencia = Transferencia.new
+cuenta_origen = CuentaOrigen.new
+cuenta_destino = CuentaDestino.new
