@@ -3,7 +3,7 @@ class Saqueo
     @barco = barco_saqueador
   end
   
-  def realizar_contra(ciudad)
+  def realizar_contra!(ciudad)
     @barco.preparar_tripulacion!
     @barco.desembarcar!(ciudad)
     if (ciudad.puede_hacerle_frente_a?(@barco))
