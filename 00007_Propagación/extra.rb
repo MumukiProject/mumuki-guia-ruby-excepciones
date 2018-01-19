@@ -22,6 +22,5 @@ class Cuenta
   end
 end
 
-transferencia = Transferencia.new(40)
 cuenta_origen = Cuenta.new(20)
 cuenta_destino = Cuenta.new(100)

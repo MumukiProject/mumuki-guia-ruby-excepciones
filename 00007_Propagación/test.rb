@@ -1,3 +1,5 @@
+transferencia = Transferencia.new(40)
+
 it "Realizar una transferencia de la cuenta origen a la destino falla" do
   expect { transferencia.realizar! }. to raise_error ("No se puede debitar, porque el monto $#{monto} es mayor al saldo $#{@saldo}")
 end
