@@ -1,11 +1,9 @@
 class Golondrina
-  @energia = 50
+  def initialize
+    @energia = 50
+  end
   
   def volar_en_circulos!
     @energia -= 20
-  end
-  
-  def energia
-    @energia
   end
 end
