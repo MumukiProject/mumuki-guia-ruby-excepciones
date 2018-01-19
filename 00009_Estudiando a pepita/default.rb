@@ -1,4 +1,4 @@
-module Ornitologo
+class Ornitologo
   def estudiar_pepita!
     pepita.comer_alpiste! 10
     pepita.volar_en_circulos!
