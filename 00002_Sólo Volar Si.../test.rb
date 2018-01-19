@@ -1,6 +1,6 @@
-pepita = Golondrina.new
-
 describe do 
+  pepita = Golondrina.new
+  
   it "si Pepita vuela una vez, consume 20" do
     pepita.volar_en_circulos!
     expect(pepita.energia).to eq 30
