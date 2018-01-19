@@ -1,4 +1,5 @@
 carlos = Ornitologo.new
+pepita = Golondrina.new
 
 it "Si pepita tiene poca energía, estudiar a pepita falla" do
   pepita.volar_en_circulos!
