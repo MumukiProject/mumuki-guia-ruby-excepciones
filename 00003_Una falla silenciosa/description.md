@@ -20,7 +20,7 @@ cuenta_destino = CuentaDestino.new
 
 ```
 
-¿Qué sucedería si realizamos la transferencia y `debitar` **no** debitara de la cuenta origen cuando no tiene saldo?
+¿Qué sucedería si realizamos la transferencia y `debitar!` **no** debitara de la cuenta origen cuando no tiene saldo?
 
 > ¡Descubrilo! Haciendo consultas en la consola, averiguá con cuánto dinero comienzan y terminan la `cuenta_origen` y la `cuenta_destino`. 
 >
