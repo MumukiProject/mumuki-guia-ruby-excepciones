@@ -5,7 +5,8 @@ Suena divertido, pero el banco estará furioso :rage:.
 El problema acá surge porque la cuenta origen falló, pero lo hizo en silencio y nadie se enteró. ¿La solución? ¡Gritar el error fuerte y claro!
 
 > Probá nuevamente las consultas anteriores, pero con una nueva versión del código que **no** falla silenciosamente:
-> ``` ruby
+> 
+``` ruby
 ム cuenta_origen.saldo
 ム cuenta_destino.saldo
 ム transferencia.realizar!(cuenta_origen, cuenta_destino)
