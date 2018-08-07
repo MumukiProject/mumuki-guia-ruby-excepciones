@@ -1,0 +1,1 @@
+Una `Golondrina` puede volar cuando su energía es suficiente, es decir, `@energia >= 20`.
