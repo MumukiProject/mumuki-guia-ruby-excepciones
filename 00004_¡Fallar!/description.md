@@ -10,8 +10,6 @@ El problema acá surge porque la cuenta origen falló, pero lo hizo en silencio 
 ム cuenta_origen.saldo
 ム cuenta_destino.saldo
 ム transferencia.realizar!(cuenta_origen, cuenta_destino)
-ム cuenta_origen.saldo
-ム cuenta_destino.saldo
 ```
 
 
