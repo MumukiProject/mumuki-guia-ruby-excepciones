@@ -6,4 +6,4 @@ Ahora te toca a vos: un `Ornitologo` investiga el comportamiento de las golondri
 
 Queremos que `Ornitologo` entienda un mensaje `estudiar_pepita!` que le haga hacer su rutina y que lance una excepción si `pepita.volar_en_circulos!` la lanza.
  
-> Escribí el código necesario y pensá si es necesario hacer algo especial para que la excepción que lanza `Pepita` se propague.
+> Escribí el código necesario y pensá si es necesario hacer algo especial para que la excepción que lanza `Pepita` se lance también en `estudiar_pepita!`.

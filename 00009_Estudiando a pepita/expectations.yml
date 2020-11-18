@@ -1,4 +1,5 @@
 ---
 expectations:
-- binding: Ornitologo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Ornitologo
   inspection: DeclaresMethod:estudiar_pepita!
