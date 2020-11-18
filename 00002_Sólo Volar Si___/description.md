@@ -10,12 +10,4 @@ pepita.volar_en_circulos! # su energía queda en -20
 
 Si bien es fácil de entender, esto está claramente mal: la energía de `pepita` debería ser siempre positiva. Y no debería hacer actividades que le consuman más energía de la que tiene. ¿Qué podríamos hacer?
 
-> Además de envíos de mensajes, en objetos contamos con una estructura de control bastante conocida: la alternativa condicional o `if`: 
-> 
-> ```ruby
-> if dia.es_soleado?
->   picnic.preparar!
-> end
-> ```
-> 
-> Sabiendo esto, modificá el método `volar_en_circulos!` para que sólo vuele (pierda energía) si puede. 
+> Modificá el método `volar_en_circulos!` para que sólo vuele (pierda energía) si puede. 
