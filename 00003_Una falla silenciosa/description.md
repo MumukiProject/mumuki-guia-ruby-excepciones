@@ -14,7 +14,7 @@ class Transferencia
   end
 end
 
-transferencia = Transferencia.new(40)
+transferencia = Transferencia.new 40
 cuenta_origen = CuentaOrigen.new
 cuenta_destino = CuentaDestino.new
 
