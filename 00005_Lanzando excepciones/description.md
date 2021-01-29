@@ -15,7 +15,7 @@ Pero la segunda versión se ve así:
 ```ruby
 def debitar!(monto)
   if monto > @saldo
-    raise "No se puede debitar, porque el monto $#{monto} es mayor al saldo $#{@saldo}"
+    raise "No se puede debitar, porque el monto es mayor al saldo"
   end
   
   @saldo -= monto  
