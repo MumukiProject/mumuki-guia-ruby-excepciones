@@ -5,7 +5,7 @@ Por ejemplo, si bien en el programa anterior `CuentaOrigen.debitar!(monto)` era 
 ```ruby
 def debitar!(monto)
   if monto > @saldo
-    raise "No se puede debitar, porque el monto $#{monto} es mayor al saldo $#{@saldo}"
+    raise "No se puede debitar, porque el monto es mayor al saldo"
   end
 
   @saldo -= monto
