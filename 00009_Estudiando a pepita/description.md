@@ -1,4 +1,4 @@
-Ahora te toca a vos: un `Ornitologo` investiga el comportamiento de las golondrinas, en particular `pepita`, y como parte de su estudio la hace:
+Ahora te toca a vos: un `Ornitologo` investiga el comportamiento de las golondrinas, en particular `Pepita`, y como parte de su estudio la hace:
 
 1. `comer_alpiste! 10`
 2. `volar_en_circulos!` dos veces 
