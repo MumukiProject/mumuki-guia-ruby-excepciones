@@ -20,4 +20,4 @@ class Golondrina
   end
 end
   
-Pepita = Golondrina.new
+pepita = Golondrina.new
