@@ -1,7 +1,8 @@
 carlos = Ornitologo.new
+pepita = Golondrina.new
 
-it "Si pepita tiene poca energía, estudiar a pepita falla" do
-  Pepita.volar_en_circulos!
-  Pepita.volar_en_circulos!
-  expect { carlos.estudiar_pepita! }.to raise_error("No tengo suficiente energía")
+it "Si la golondrina recibida tiene poca energía, estudiar_golondrina!  falla" do
+  pepita.volar_en_circulos!
+  pepita.volar_en_circulos!
+  expect { carlos.estudiar_golondrina! pepita }.to raise_error("No tengo suficiente energía")
 end
