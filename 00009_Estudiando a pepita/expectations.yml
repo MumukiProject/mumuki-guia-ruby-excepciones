@@ -2,4 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Ornitologo
-  inspection: DeclaresMethod:estudiar_pepita!
+  inspection: DeclaresMethod:estudiar_golondrina!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Ornitologo
+  inspection: DeclaresComputationWithArity1:estudiar_golondrina!
