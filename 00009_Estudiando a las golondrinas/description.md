@@ -4,7 +4,7 @@ Ahora te toca a vos: un `Ornitologo` investiga el comportamiento de las golondri
 2. `volar_en_circulos!` dos veces 
 3. finalmente `comer_alpiste! 10`. 
 
-Queremos que `Ornitologo` entienda un mensaje `estudiar_golondrina!` que:
+Queremos que las instancias de la clase `Ornitologo` entiendan un mensaje `estudiar_golondrina!` que:
 
 * tome como parámetro una golondrina;
 * le haga hacer su rutina;
